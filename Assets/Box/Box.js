@@ -23,5 +23,6 @@ function ApplyDamage() {
 	if (!damaged) {
 		damaged = true;
 		killTimer = 0.4;
+		rigidbody.AddForce(Vector3.up * 15.0, ForceMode.Impulse);
 	}
 }
