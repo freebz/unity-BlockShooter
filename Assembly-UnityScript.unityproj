@@ -45,6 +45,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Box\Box.js" />
+     <Compile Include="Assets\Box\BoxGenerator.js" />
      <Compile Include="Assets\Gun\Bullet.js" />
      <Compile Include="Assets\Gun\Gun.js" />
   </ItemGroup>
