@@ -16,9 +16,12 @@ function Start () {
 function Update () {
 	timer -= Time.deltaTime;
 	if (timer < 0.0) {
-		// 상자의 프리팹을 인스턴스화 한다.
+		// 위치와 방향에 랜덤하게 값을 주면서 상자의 프리팹을 인스턴스화 한다.
+		var offsx : float = Random.Range(-8.0, 8.0);
+		var offsz : float = Random.Range(-4.0, 4.0);
+		var position : Vector3 = transform.position + Vector3(offsx, 0, offsz);
 		var prefab : GameObject = nextIsRed ? redBoxPrefab : blueBoxPrefab;
-		Instantiate(prefab, transform.position, transform.rotation);
+		Instantiate(prefab, position, Random.rotation);
 		// 다음 상자 예약
 		timer = interval;
 		nextIsRed = !nextIsRed;
