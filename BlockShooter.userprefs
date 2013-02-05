@@ -1,6 +1,13 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Box\Box.js">
+    <Files>
+      <File FileName="Assets\Box\BoxGenerator.js" Line="24" Column="40" />
+      <File FileName="Assets\Scorekeeper.js" Line="5" Column="1" />
+      <File FileName="Assets\Referee.js" Line="54" Column="2" />
+      <File FileName="Assets\Box\Box.js" Line="19" Column="57" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
