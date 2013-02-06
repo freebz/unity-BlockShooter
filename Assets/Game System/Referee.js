@@ -5,6 +5,7 @@
 var switchInterval : float;		// 색 변환 간격
 var rewardPoint : int;			// 올바른 색에 대한 가점
 var penaltyPoint : int;			// 잘못된 색에 대한 감점
+var skin : GUISkin;
 
 private var scorekeeper : Scorekeeper;	// Scorekeeper 컴포넌트 참조
 private var targetIsRed : boolean;		// 현재 타깃이 빨간색일 때 true
@@ -44,6 +45,7 @@ function OnDestroyBox(boxColorName : String) {
 }
 
 function OnGUI() {
+	GUI.skin = skin;
 	// 색 변환한지 얼마 안된 경우는 표시하지 않는다.
 	if (switchTimer < 1.5) return;
 	// 타깃 색 이름을 대응하는 색 라벨로 표시한다.
@@ -51,5 +53,5 @@ function OnGUI() {
 	var sh : int = Screen.height;
 	var message : String = "Shoot " + GetTargetColorName() + " Boxes";
 	GUI.color = targetIsRed ? Color.red : Color.blue;
-	GUI.Label(Rect(0, sh / 4, sw, sh / 2), message);
+	GUI.Label(Rect(0, sh / 4, sw, sh / 2), message, "message");
 }
