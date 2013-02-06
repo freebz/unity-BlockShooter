@@ -55,3 +55,7 @@ function OnGUI() {
 	GUI.color = targetIsRed ? Color.red : Color.blue;
 	GUI.Label(Rect(0, sh / 4, sw, sh / 2), message, "message");
 }
+
+function TimeUp() {
+	enabled = false;
+}

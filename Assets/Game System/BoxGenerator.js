@@ -27,3 +27,7 @@ function Update () {
 		nextIsRed = !nextIsRed;
 	}
 }
+
+function TimeUp() {
+	enabled = false;
+}

@@ -48,6 +48,7 @@
      <Compile Include="Assets\Game System\BoxGenerator.js" />
      <Compile Include="Assets\Game System\Referee.js" />
      <Compile Include="Assets\Game System\Scorekeeper.js" />
+     <Compile Include="Assets\Game System\Timekeeper.js" />
      <Compile Include="Assets\Gun\Bullet.js" />
      <Compile Include="Assets\Gun\Gun.js" />
   </ItemGroup>

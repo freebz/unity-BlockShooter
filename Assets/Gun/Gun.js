@@ -23,3 +23,7 @@ function Update () {
 		bullet.rigidbody.velocity = direction * initialVelocity;
 	}
 }
+
+function TimeUp() {
+	enabled = false;
+}
