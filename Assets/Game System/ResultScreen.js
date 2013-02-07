@@ -27,7 +27,9 @@ function TimeUp() {
 	state = "Show Score";
 	while (!Input.GetButtonDown("Fire1")) yield;
 	// (임시)게임을 재가동한다.
-	Application.LoadLevel("Main");
+	//Application.LoadLevel("Main");
+	// 타이틀 씬으로 바뀐다.
+	Application.LoadLevel("Title");
 }
 
 function OnGUI() {

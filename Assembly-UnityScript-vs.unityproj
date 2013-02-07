@@ -53,6 +53,7 @@
      <Compile Include="Assets\Game System\Timekeeper.js" />
      <Compile Include="Assets\Gun\Bullet.js" />
      <Compile Include="Assets\Gun\Gun.js" />
+     <Compile Include="Assets\Title\TitleScreen.js" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
