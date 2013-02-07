@@ -46,6 +46,7 @@
   <ItemGroup>
      <Compile Include="Assets\Box\Box.js" />
      <Compile Include="Assets\Game System\BoxGenerator.js" />
+     <Compile Include="Assets\Game System\GameStarter.js" />
      <Compile Include="Assets\Game System\Referee.js" />
      <Compile Include="Assets\Game System\ResultScreen.js" />
      <Compile Include="Assets\Game System\Scorekeeper.js" />

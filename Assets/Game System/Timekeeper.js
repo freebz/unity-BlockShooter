@@ -18,3 +18,7 @@ function Update () {
 		enabled = false;
 	}
 }
+
+function StartGame() {
+	enabled = true;
+}

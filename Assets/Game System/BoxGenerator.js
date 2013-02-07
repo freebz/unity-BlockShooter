@@ -31,3 +31,7 @@ function Update () {
 function TimeUp() {
 	enabled = false;
 }
+
+function StartGame() {
+	enabled = true;
+}

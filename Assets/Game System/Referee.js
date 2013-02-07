@@ -59,3 +59,7 @@ function OnGUI() {
 function TimeUp() {
 	enabled = false;
 }
+
+function StartGame() {
+	enabled = true;
+}

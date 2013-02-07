@@ -1,13 +1,14 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Game System\BoxGenerator.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Game System\ResultScreen.js">
     <Files>
-      <File FileName="Assets\Game System\Timekeeper.js" Line="19" Column="3" />
-      <File FileName="Assets\Box\Box.js" Line="32" Column="2" />
-      <File FileName="Assets\Game System\Referee.js" Line="61" Column="2" />
+      <File FileName="Assets\Game System\Timekeeper.js" Line="1" Column="1" />
+      <File FileName="Assets\Box\Box.js" Line="1" Column="1" />
+      <File FileName="Assets\Game System\Referee.js" Line="1" Column="1" />
       <File FileName="Assets\Game System\Scorekeeper.js" Line="1" Column="1" />
-      <File FileName="Assets\Gun\Gun.js" Line="27" Column="1" />
+      <File FileName="Assets\Gun\Gun.js" Line="1" Column="1" />
       <File FileName="Assets\Game System\BoxGenerator.js" Line="33" Column="2" />
+      <File FileName="Assets\Game System\ResultScreen.js" Line="10" Column="20" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
